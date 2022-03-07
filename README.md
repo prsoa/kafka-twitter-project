@@ -12,8 +12,11 @@ There are 2 project folders with separate Maven "pom.xml" files.
 For the producer you will need to create a ".env" file on the root folder "kafka-twitter-producer" with the following ENV variables:
 
 API_KEY="..."
+
 API_SECRET="..."
+
 TOKEN="..."
+
 TOKEN_SECRET="..."
 
 These should be your OAuth1 credentials from the twitter account you will be using.
@@ -21,8 +24,10 @@ These should be your OAuth1 credentials from the twitter account you will be usi
 ## Consumer
 For the producer you will need to create a ".env" file on the root folder "kafka-twitter-consumer" with the following ENV variables:
 
-ELASTIC_HOSTNAME="..." 
+ELASTIC_HOSTNAME="..."
+
 ELASTIC_USERNAME="..."
+
 ELASTIC_PASSWORD="..."
 
 These should be your ElasticSearch server credentials. The hostname should not have "http"/"https".
